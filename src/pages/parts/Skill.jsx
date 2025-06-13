@@ -25,37 +25,37 @@ const Skill = () => {
     <div className="flex flex-row gap-4 items-center justify-center text-black flex-wrap ">
     <SpotlightCard className="custom-spotlight-card w-full sm:w-64 transition-transform hover:scale-105 hover:shadow-2xl duration-300" spotlightColor="rgba(0, 229, 255, 0.2)">
         <div className="flex flex-col items-center justify-center h-full">
-            <img src="./public/react.svg" width={190} alt="ReactJs" className='h-32 object-contain'/>
+            <img src="./react.svg" width={190} alt="ReactJs" className='h-32 object-contain'/>
             <h2 className="text-2xl font-bold mt-4">Reactjs</h2>
         </div>
 </SpotlightCard>
     <SpotlightCard className="custom-spotlight-card w-64 transition-transform hover:scale-105 hover:shadow-2xl duration-300" spotlightColor="rgba(0, 229, 255, 0.2)">
         <div className="flex flex-col items-center justify-center h-full">
-            <img src="./public/laravell.svg" width={190} alt="Laravel" className='h-32 object-contain' />
+            <img src="./laravell.svg" width={190} alt="Laravel" className='h-32 object-contain' />
             <h2 className="text-2xl font-bold mt-4">Laravel</h2>
         </div>
 </SpotlightCard>
     <SpotlightCard className="custom-spotlight-card w-64 transition-transform hover:scale-105 hover:shadow-2xl duration-300" spotlightColor="rgba(0, 229, 255, 0.2)">
         <div className="flex flex-col items-center justify-center h-full">
-            <img src="./public/mysql.svg" width={190} alt="mySql" className='h-32 object-contain'/>
+            <img src="./mysql.svg" width={190} alt="mySql" className='h-32 object-contain'/>
             <h2 className="text-2xl font-bold mt-4">mySql</h2>
         </div>
 </SpotlightCard>
     <SpotlightCard className="custom-spotlight-card w-64 transition-transform hover:scale-105 hover:shadow-2xl duration-300" spotlightColor="rgba(0, 229, 255, 0.2)">
         <div className="flex flex-col items-center justify-center h-full">
-            <img src="./public/pgsql.svg" width={190} alt="PostgreeSQL" className='h-32 object-contain' />
+            <img src="./pgsql.svg" width={190} alt="PostgreeSQL" className='h-32 object-contain' />
             <h2 className="text-2xl font-bold mt-4">PostgreSQL</h2>
         </div>
 </SpotlightCard>
     <SpotlightCard className="custom-spotlight-card w-64 transition-transform hover:scale-105 hover:shadow-2xl duration-300" spotlightColor="rgba(0, 229, 255, 0.2)">
         <div className="flex flex-col items-center justify-center h-full">
-            <img src="./public/mongoDB.svg" width={190} alt="PostgreeSQL"  className='h-32 object-contain'/>
+            <img src="./mongoDB.svg" width={190} alt="PostgreeSQL"  className='h-32 object-contain'/>
             <h2 className="text-2xl font-bold mt-4">mongoSQL</h2>
         </div>
 </SpotlightCard>
     <SpotlightCard className="custom-spotlight-card w-64 transition-transform hover:scale-105 hover:shadow-2xl duration-300" spotlightColor="rgba(0, 229, 255, 0.2)">
         <div className="flex flex-col items-center justify-center h-full">
-            <img src="./public/py.svg" width={190} alt="PostgreeSQL"className='h-32 object-contain' />
+            <img src="./py.svg" width={190} alt="PostgreeSQL"className='h-32 object-contain' />
             <h2 className="text-2xl font-bold mt-4">Python</h2>
         </div>
 </SpotlightCard>
@@ -65,7 +65,7 @@ const Skill = () => {
   <div className="flex flex-row gap-4 items-center justify-center text-black flex-wrap">
     <SpotlightCard className="w-80 transition-transform hover:scale-105 hover:shadow-2xl duration-300" spotlightColor="rgba(0,229,255,0.2)">
         <div className="flex flex-col items-center justify-center h-full">
-      <img src="./public/lumen.svg" width={150} alt="Project 1" className="rounded-xl mb-4 h-32 object-contain" />
+      <img src="./lumen.svg" width={150} alt="Project 1" className="rounded-xl mb-4 h-32 object-contain" />
       </div>
       <h2 className="text-xl font-bold">Pet Adoption</h2>
       <p className="text-base font-normal mt-2">In this project, I created an API for animal adoption business logic. </p>
@@ -80,7 +80,7 @@ const Skill = () => {
     </SpotlightCard>
     <SpotlightCard className="w-80 transition-transform hover:scale-105 hover:shadow-2xl duration-300" spotlightColor="rgba(0,229,255,0.2)">
         <div className="flex flex-col items-center justify-center h-full">
-      <img src="./public/laravell.svg" width={150} alt="Project 1" className="rounded-xl mb-4 h-32 object-contain"/>
+      <img src="./laravell.svg" width={150} alt="Project 1" className="rounded-xl mb-4 h-32 object-contain"/>
       </div>
       <h2 className="text-xl font-bold">Music</h2>
       <p className="text-base font-normal mt-2">This is my first dilaravel CRUD project, you can see it directly. </p>
@@ -95,7 +95,7 @@ const Skill = () => {
     </SpotlightCard>
     <SpotlightCard className="w-80 transition-transform hover:scale-105 hover:shadow-2xl duration-300" spotlightColor="rgba(0,229,255,0.2)">
         <div className="flex flex-col items-center justify-center h-full">
-      <img src="./public/flutter.svg" width={150} alt="Project 1" className="rounded-xl mb-4 h-32 object-contain"/>
+      <img src="./flutter.svg" width={150} alt="Project 1" className="rounded-xl mb-4 h-32 object-contain"/>
       </div>
       <h2 className="text-xl font-bold">Tiket App</h2>
       <p className="text-base font-normal mt-2">By using the flutter framework I created this ticket app project. </p>
@@ -115,19 +115,19 @@ const Skill = () => {
   <div className="flex flex-row gap-4 items-center justify-center text-black flex-wrap">
     <SpotlightCard className="w-80 transition-transform hover:scale-105 hover:shadow-2xl duration-300" spotlightColor="rgba(0,229,255,0.2)">
         <div className="flex flex-col items-center justify-center h-full ">
-      <img src="./public/vscode.svg" width={150} alt="Project 1" className="rounded-xl mb-4 h-32 object-contain"/>
+      <img src="./vscode.svg" width={150} alt="Project 1" className="rounded-xl mb-4 h-32 object-contain"/>
       </div>
       <h2 className="text-xl font-bold">Visual Studio Code</h2>
     </SpotlightCard>
     <SpotlightCard className="w-80 transition-transform hover:scale-105 hover:shadow-2xl duration-300" spotlightColor="rgba(0,229,255,0.2)">
         <div className="flex flex-col items-center justify-center h-full ">
-      <img src="./public/Github.svg" width={150} alt="Project 1" className="rounded-xl mb-4 h-32 object-contain"/>
+      <img src="./Github.svg" width={150} alt="Project 1" className="rounded-xl mb-4 h-32 object-contain"/>
       </div>
       <h2 className="text-xl font-bold">Github</h2>
     </SpotlightCard>
     <SpotlightCard className="w-80 transition-transform hover:scale-105 hover:shadow-2xl duration-300" spotlightColor="rgba(0,229,255,0.2)">
         <div className="flex flex-col items-center justify-center h-full ">
-      <img src="./public/Git.svg" width={150} alt="Project 1" className="rounded-xl mb-4 h-32 object-contain"/>
+      <img src="./Git.svg" width={150} alt="Project 1" className="rounded-xl mb-4 h-32 object-contain"/>
       </div>
       <h2 className="text-xl font-bold">Git</h2>
     </SpotlightCard>

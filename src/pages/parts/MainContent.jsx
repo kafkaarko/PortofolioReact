@@ -14,7 +14,7 @@ const MainContent = () => {
               <PixelTransition
                 firstContent={
                   <img
-                    src="./public/kafka.jpg"
+                    src="./kafka.jpg"
                     alt="kafka arko ardissy!"
                     className=" object-cover rounded-xl"
                   />
@@ -46,13 +46,13 @@ const MainContent = () => {
               </p>
               <div className="flex flex-row gap-5 mt-10">
                 <Magnet padding={50} disabled={false} magnetStrength={20}>
-                  <a href="https://github.com/kafkaarko" className='link link-hover'><img src="./public/github.png" alt="" width={50} /></a>
+                  <a href="https://github.com/kafkaarko" className='link link-hover'><img src="./github.png" alt="" width={50} /></a>
                 </Magnet>
                 <Magnet padding={50} disabled={false} magnetStrength={20}>
-                  <a href="https://www.linkedin.com/in/kafka-arko-ardissya-141a33304/" className='link link-hover'><img src="./public/linkedin.png" alt="" width={50} /></a>
+                  <a href="https://www.linkedin.com/in/kafka-arko-ardissya-141a33304/" className='link link-hover'><img src="./linkedin.png" alt="" width={50} /></a>
                 </Magnet>
                 <Magnet padding={50} disabled={false} magnetStrength={20}>
-                  <a href="https://www.instagram.com/kafka.svg/" className='link link-hover'><img src="./public/ig.png" alt="" width={50} /></a>
+                  <a href="https://www.instagram.com/kafka.svg/" className='link link-hover'><img src="./ig.png" alt="" width={50} /></a>
                 </Magnet>
               </div>
             </div>
