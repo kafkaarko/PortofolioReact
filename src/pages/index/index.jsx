@@ -1,19 +1,17 @@
 import React from 'react'
-import Layout from '../components/Layout'
-import HeroSection from '../parts/HeroSection'
-import MainContent from '../parts/MainContent'
-import Skill from '../parts/Skill'
 import Last from '../parts/Last'
+import { HeroSection } from '../parts/HeroSection'
+import { AboutSection } from '../parts/MainContent'
+import { ExpertiseSection } from '../parts/Skill'
 
-const Index = () => {
+
+export default function Home() {
   return (
-    <Layout>    
-   <HeroSection/>
-   <MainContent/>
-   <Skill/>
-   <Last/>
-    </Layout>
+    <main className="min-h-screen bg-gradient-to-b from-[#0f0c29] via-[#302b63] to-[#24243e]">
+      <HeroSection />
+      <AboutSection />
+      <ExpertiseSection/>
+      <Last/>
+    </main>
   )
 }
-
-export default Index

@@ -1,43 +1,24 @@
 import React from 'react'
-import SplitText from '../reactbits/SplitText'
+import SplitText from '../reactbits/SplitText.jsx'
+// import { Section } from '../components/ui/Section'
+import { Container } from '../components/ui/Container'
+import { Section } from '../components/ui/Section.jsx'
 
-
-const HeroSection = () => {
-  return (
-<>
-<div className='flex justify-center items-center text-gray-200 min-h-screen' >
-    <div className='flex flex-col items-center gap-5 font-bold md:w-full  '>
+export const HeroSection = () => (
+  <Section className="min-h-screen flex items-center justify-center
+" >
+    <Container>
 <SplitText
-  text="Hello everyone!"
-  className="text-9xl font-semibold text-center "
-  delay={100}
-  duration={0.5}
-  ease="power3.out"
-  splitType="chars"
-  from={{ opacity: 0, y: 40 }}
-  to={{ opacity: 1, y: 0 }}
-  threshold={0.1}
-  rootMargin="-100px"
-  textAlign="center"
+  text="Junior Web Developer"
+  className="
+    text-6xl md:text-7xl font-extrabold text-center
+    bg-gradient-to-r from-purple-400 via-pink-500 to-indigo-400
+    bg-clip-text text-transparent
+    drop-shadow-[0_0_25px_rgba(168,85,247,0.35)]
+  "
 />
-<SplitText
-  text="welcome to my portofolio!!"
-  className="text-6xl font-semibold text-center text-linear-to-t "
-  delay={50}
-  duration={0.10}
-  ease="power3.out"
-  splitType="chars"
-  from={{ opacity: 0, y: 40 }}
-  to={{ opacity: 1, y: 0 }}
-  threshold={0.1}
-  rootMargin="-100px"
-  textAlign="center"
-/>
-    </div>
 
-</div>
-</>
-  )
-}
 
-export default HeroSection
+    </Container>
+  </Section>
+)

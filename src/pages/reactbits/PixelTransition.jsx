@@ -51,9 +51,7 @@ const AnimatedContent = ({
     });
 
     return () => {
-      if (tween.scrollTrigger) {
-        tween.scrollTrigger.kill();
-      }
+      tween.scrollTrigger?.kill();
       tween.kill();
     };
   }, [
